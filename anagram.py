@@ -1,4 +1,4 @@
-def anagram(S1,S2):
+def anagram1(S1,S2):
     """ Checks if the two strings are anagram or not"""
     S1 = S1.replace(' ', '').lower()
     S2 = S2.replace(' ', '').lower()
@@ -74,7 +74,7 @@ str2 = ['aogta', 'god', 'I am Lord Voldemort','Conifers', 'I am Lord Voldemort G
 for i in range(len(str1)):
     
     start = time.time()
-    bool1 = anagram(str1[i], str2[i])
+    bool1 = anagram1(str1[i], str2[i])
     t1 = time.time() - start
 
     start = time.time()
