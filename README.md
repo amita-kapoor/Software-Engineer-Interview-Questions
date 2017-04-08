@@ -9,3 +9,7 @@ __anagram.py__ contains three different implementations of the problem. In terms
 
 anagram1 and anagram2 functions both use 'dict' of python to solve the problem, they only differ in the way they handle 'keyerror' for accessing dictionary key without being initialized. Function anagram1 performs if check before accessing key value, and anagram2 uses 'get' method to get key values if they are assigned and returns zero if they are not assigned.
 Function anagram3 uses a different approach, it adds the sum of unicode/char value of all the characters in the strings, and to ensure it works uses non-linear square sum as well.
+
+## Sorting:
+Another common problem is sorting, sorting means given an array of n numbers we arrange the array in increasing or decreasing order. There exist various algorithms for sorting, each varying in time complexity. The file __sorting.py__ contains five different sorting algorithms. Each one is run on a randomly generated array, the program gives the the time taken by each as we increase the number of elements of the array.
+
