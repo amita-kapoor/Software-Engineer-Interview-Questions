@@ -30,7 +30,7 @@ Next we scan the array from (1-n) for next smallest element, after scanning whol
 We continue in this manner till we reach the last position of array.
 
 ### Quick Sort
-While the worst case performance of quick sort is O(n^2) it given __nlogn__ average time complexity.
+While the worst case performance of quick sort is O(n^2) it gives __nlogn__ average time complexity.
 In this we choose a pivot point, and divide array in two, one containing elements greater than pivot and another containing elements less than pivot. We put the pivot in middle of these two sub-parts.
 Now recursively we perform the same operation on each sub part.
 
@@ -44,7 +44,7 @@ The best way to understand sorting is to be able to visualize it, in my search I
 ## Graphs
 One of the most common data structure that is asked in interviews. It is otherwise as well very useful in analyzing networks, data organization and as my M.Sc thesis ( https://www.researchgate.net/publication/281294552_Interpretive_structural_modeling_based_knowledge_representation) tries to prove acn be also used for Knowledge Representation.
 
-The code __graphs_as_dictionary.py__ gives a dictionary reprentation of graphs. it can useful for graphs without weighted edges. the implementation given is for undirected graph, but can be modified to directed graphs as well.
+The code __graphs_as_dictionary.py__ gives a dictionary reprsentation of graphs. it can useful for graphs without weighted edges. the implementation given is for undirected graph, but can be modified to directed graphs as well.
 
 
 
