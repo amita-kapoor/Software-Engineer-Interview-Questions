@@ -46,6 +46,8 @@ One of the most common data structure that is asked in interviews. It is otherwi
 
 The code __graphs_as_dictionary.py__ gives a dictionary reprsentation of graphs. it can useful for graphs without weighted edges. the implementation given is for undirected graph, but can be modified to directed graphs as well.
 
+The python file named __graphs_traversals.py__ again implements the graphs but this time as class object. The class contains method for adding an edge in the graph. And to perform topological sorting of the graph. Topological sorting arranges the nodes of the graph in a linear order it can be very useful for scheduling type problems, or to deal with dependencies (packages or classes :) ). The code implements the two common topological sorting algorithms: The DFS based topological sort and Kahn's Algorithm. If ||V|| is the number of vertices and ||E|| the number of edges, then both algorithm take O(||V||+||E||) worst case time.
+
 
 
 
